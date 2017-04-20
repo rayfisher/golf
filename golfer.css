@@ -1,0 +1,77 @@
+html, body{
+
+    width: 100%;
+    height: 100%;
+
+}
+body{
+    background-image: url('golf.jpg');
+
+}
+.modalbackground{
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+   z-index: 9999;
+
+
+}
+.setupmodal{
+    width: 300px;
+    margin: 0 auto;
+    height: auto;
+    padding: 15px;
+    border-radius: 4px;
+    background-color: black;
+}
+#container{
+    width:  90%;
+    margin: 250px auto;
+    border-radius: 4px;
+    background-color: white;
+    display: flex;
+    padding:15px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.holcol{
+    border: 1px solid #ccc;
+    margin-right: 5px;
+    width: 30px;
+    text-align: center;
+}
+
+
+#leftCard {
+    width:  150px;
+    border-radius: 4px;
+    background-color: white;
+    padding:35px;
+}
+#rightCard{
+    width: auto;
+    display:flex;
+    padding: 15px;
+}
+.glyphicon{
+    color: red;
+    padding-top: 2px;
+    cursor: pointer;
+}
+#playerCount {
+    width: 100%;
+    margin: 10px auto;
+    text-align: center;
+}
+.gobtn{
+    width: 80%;
+    margin: 25px auto 0px auto;
+    display: block;
+}
+.holebox{
+    width: 100%;
+
+}
